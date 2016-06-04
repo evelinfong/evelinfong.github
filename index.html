@@ -64,6 +64,16 @@
 		.emirates-image {
 			max-width: 10px
 		}
+		.achievement {
+			background-image: url('emiratesPic.jpg');
+			background-size: cover;
+			background-position: center center;
+		}
+		.LA {
+			background-image: url('eyespot.png');
+			background-size: cover;
+			background-position: center center;
+		}
 		.achievement h3, .achievement li {
 			color: #45050C;
 		}
@@ -83,7 +93,7 @@
 <body>
 	<center><img style="border-radius: 90px;" src = "https://scontent-sjc2-1.xx.fbcdn.net/hphotos-xtf1/v/t1.0-9/603748_1135225019821057_5801628080750531402_n.jpg?oh=21e3a26aeeed14b7893e898c55051758&oe=577619A9" width="90px"></center>
 	<div class=name><center> Evelin Fong </center></div>
-	<center>
+	<center> f
 		<a href=https://www.linkedin.com/in/evelin-fong-a751b9103><i class="fa fa-linkedin person-icon" aria-hidden="true"></i></a>
 		<a href=https://github.com/evelinfong><i class="fa fa-github person-icon" aria-hidden="true"></i></a>
 		<a href="https://www.facebook.com/fong.hui.1"><i class="fa fa-facebook person-icon" aria-hidden="true"></i></a>
@@ -100,7 +110,7 @@
 			<li> Won a sponsor prize from Emirates. </li>
 		</ul>
 		</div>
-<div style="background-color: #FFE4E1; height: 15%;">
+<div class="LA" style="background-color: #FFE4E1; height: 40%;">
 		<h4> LA Hacks</h4>
 		<ul>
 			<li> The project name is EyeSpot. </li>
@@ -176,12 +186,6 @@
 			$("change-color").fadeIn(3000);
 			$(".school").hide();
 			$(".school").fadeIn(2000);
-
-			$(".achievement").vegas({
-			    slides: [
-			        { src: "emiratesPic.jpg" }
-			    ]
-			});
 		</script>
 	</body>
 	</html>
