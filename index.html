@@ -9,9 +9,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="">
     <meta name="author" content="">
-
+    <!-- Adding favicon to profile -->
+    <link rel="icon" type="image/png" href="favicon.ico" sizes="128x128" />
     <title>Evelin Fong</title>
-
 
     <!-- Bootstrap Core CSS -->
     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -75,6 +75,7 @@
 
         <!-- Header -->
         <header>
+
             <div class="container">
                 <div class="intro-text">
                     <div class="intro-lead-in">Welcome!</div>
@@ -135,6 +136,20 @@
                             <p class="text-muted">Selected as of the top 5 finalists by MLH</p>
                         </div>
                     </div>
+                     <div class="col-md-4 col-sm-6 portfolio-item">
+                        <a href="#portfolioModal5" class="portfolio-link" data-toggle="modal">
+                            <div class="portfolio-hover">
+                                <div class="portfolio-hover-content">
+                                    <i class="fa fa-plus fa-3x"></i>
+                                </div>
+                            </div>
+                            <img src="img/portfolio/swoop.png" class="img-responsive" alt="">
+                        </a>
+                        <div class="portfolio-caption">
+                            <h4>SWOOP at Hack Davis</h4>
+                            <p class="text-muted">Most Techinically Challenge By Google</p>
+                        </div>
+                    </div>
                     <div class="col-md-4 col-sm-6 portfolio-item">
                         <a href="#portfolioModal3" class="portfolio-link" data-toggle="modal">
                             <div class="portfolio-hover">
@@ -151,6 +166,7 @@
                     </div>
                 </div>
             </div>
+
 
         </section>
 
@@ -406,6 +422,35 @@
                         </div>
                     </div>
                 </div>
+                 <!-- Portfolio Modal 5 -->
+                <div class="portfolio-modal modal fade" id="portfolioModal5" tabindex="-1" role="dialog" aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="close-modal" data-dismiss="modal">
+                                <div class="lr">
+                                    <div class="rl">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="container">
+                                <div class="row">
+                                    <div class="col-lg-8 col-lg-offset-2">
+                                        <div class="modal-body">
+                                            <!-- Project Details Go Here -->
+                                            <h2>SWOOP</h2>
+                                            <p class="item-intro text-muted">University of California, Davis</p>
+                                            <img class="img-responsive img-centered" src="hackdavis.jpg" alt="">
+                                            <p>SWOOP is an on demand ride sharing app. Our mission is to make getting to destinations easier, affordable, and more eco-friendly than ever. Unlike other ride share pages and apps, Swoop offers a real time on-demand ride sharing service. Simply open the app at any time and view all the commuters headed to your desired destination. You will then be able to request a ride for a small price that we guarantee will be a fraction of what you pay for an Uber or Lyft. The reason our prices are so low is because they are set by commuters like you and me, who are just looking for a little gas money and are generous enough to pick you up on their way! I worked mostly on creating the payment system using Stripe API and implemented Google Maps API to find the nearest route to pick up any commuters heading to the same destination as the driver.</p>
+                                            <p>You can preview the work at <a href="https://devpost.com/software/swoop">devpost.com</a></p>
+                                            <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
 
                 
                 <!-- jQuery -->
